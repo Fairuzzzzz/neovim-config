@@ -18,6 +18,7 @@ return {
 				markdown = { "prettier" },
 				yaml = { "prettier" },
 				python = { "ast_grep" },
+				dart = { "ast_grep" }
 			},
 			format_on_save = {
 				lsp_fallback = true,
