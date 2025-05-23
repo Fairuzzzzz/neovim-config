@@ -1,7 +1,7 @@
-return { 
-    'datsfilipe/vesper.nvim', 
+return {
+    'datsfilipe/vesper.nvim',
     priority = 1000,
-    config=function() 
+    config = function()
         require('vesper').setup({
             transparent = false,
             italics = {

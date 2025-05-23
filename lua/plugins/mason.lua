@@ -34,7 +34,6 @@ return {
 			},
 			automatic_enable = false, -- not the same as ensure_installed
 		})
-
 		mason_tool_installer.setup({
 			ensure_installed = {
 				"prettier",
